@@ -1,12 +1,8 @@
 import "./App.css";
-import Game from "./Game";
+import RPS from "./RPS";
 
 function App() {
-  return (
-    <div className="App">
-      <Game />
-    </div>
-  );
+  return <RPS />;
 }
 
 export default App;
